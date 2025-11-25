@@ -17,14 +17,15 @@ def bagi(a, b):
 def main():
     print("=== Kalkulator Sederhana ===")
     a = float(input("Masukkan angka pertama: "))
-    operator = input("Operator (+ - * /): ")
+    operator = input("Operator (+ - * / %): ")
     b = float(input("Masukkan angka kedua: "))
 
     operasi = {
-        "+": tambah,
-        "-": kurang,
-        "*": kali,
-        "/": bagi
+    "+": tambah,
+    "-": kurang,
+    "*": kali,
+    "/": bagi,
+    "%": modulus
     }
 
     if operator in operasi:
@@ -35,3 +36,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+def modulus(a, b):
+    if b == 0:
+        return "Error: pembagian dengan nol"
+    return a % b
