@@ -1,6 +1,3 @@
-# project-kalkulator-wawa
-Program kalkulator sederhana untuk latihan Python.
-Cara menjalankan: python kalkulator.py
 # Project Kalkulator Wawa
 
 Program kalkulator sederhana berbasis Python untuk latihan dasar pemrograman.  
